@@ -12,7 +12,13 @@ module.exports = {
       },
       fontSize: {
         s : ['10px','14px']
-      }
+      },
+      maxWidth: {
+        '17': '17rem',
+      },
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
     },
   },
   plugins: [],
