@@ -17,7 +17,7 @@ module.exports = {
         s : ['10px','14px']
       },
       maxWidth: {
-        '17': '23rem',
+        '17': '22rem',
       },
       aspectRatio: {
         '4/3': '4 / 3',
