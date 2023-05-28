@@ -8,7 +8,9 @@ module.exports = {
     extend: {
       colors: {
         primary: "rgba(38, 32, 33, 1)",
-        colorText : "rgba(243, 90, 90, 1)"
+        colorText : "rgba(243, 90, 90, 1)",
+        linear1:"rgba(18, 18, 24, 1)",
+        linear2:"#101c30"
       },
       height: {
         '55': '13.5rem',
