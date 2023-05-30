@@ -14,11 +14,15 @@ module.exports = {
         opensans: ["Josefin Sans"],
         pangolin: ["Pangolin"],
       },
+      aspectRatio: {
+        '4/3': '4 / 3',
+      },
       padding: {
         7: "7px",
       },
       height: {
         55: "13.5rem",
+        120: "300vh",
       },
       fontSize: {
         s: ["10px", "14px"],
