@@ -12,6 +12,9 @@ module.exports = {
         linear1:"rgba(18, 18, 24, 1)",
         linear2:"#101c30"
       },
+      padding:{
+        7: '7px'
+      },
       height: {
         '55': '13.5rem',
       },
