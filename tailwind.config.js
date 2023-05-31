@@ -13,7 +13,7 @@ module.exports = {
       fontFamily: {
         opensans: ["Josefin Sans"],
         pangolin: ["Pangolin"],
-        noto: ["Noto Sans"]
+        noto: ["Noto Sans"],
       },
       aspectRatio: {
         "4/3": "4 / 3",
@@ -23,16 +23,17 @@ module.exports = {
       },
       height: {
         55: "13.5rem",
-        120: "335vh",
+        120: "332vh",
       },
       fontSize: {
         s: ["10px", "14px"],
       },
       maxWidth: {
         17: "22.7rem",
+        18: "25rem"
       },
       aspectRatio: {
-        "4/3": "4 / 3",
+        "4/3": "3 / 4",
       },
     },
   },
