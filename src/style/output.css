@@ -765,6 +765,10 @@ video {
   overflow: hidden;
 }
 
+.scroll-smooth{
+  scroll-behavior: smooth;
+}
+
 .rounded-lg{
   border-radius: 0.5rem;
 }
@@ -1050,4 +1054,11 @@ video {
 .hover\:shadow-blue-900:hover{
   --tw-shadow-color: #1e3a8a;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+@media (min-width: 768px){
+  .md\:mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
