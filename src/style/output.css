@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
 /*
 ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
@@ -743,8 +745,18 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-linear2{
+  --tw-gradient-from: #101c30 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(16 28 48 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-linear2{
   --tw-gradient-to: #101c30 var(--tw-gradient-to-position);
+}
+
+.to-linear1{
+  --tw-gradient-to: rgba(18, 18, 24, 1) var(--tw-gradient-to-position);
 }
 
 .bg-cover{
@@ -790,6 +802,10 @@ video {
 
 .font-pangolin{
   font-family: Pangolin;
+}
+
+.font-noto{
+  font-family: Noto Sans;
 }
 
 .text-4xl{

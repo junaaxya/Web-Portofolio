@@ -13,6 +13,7 @@ module.exports = {
       fontFamily: {
         opensans: ["Josefin Sans"],
         pangolin: ["Pangolin"],
+        noto: ["Noto Sans"]
       },
       aspectRatio: {
         "4/3": "4 / 3",
