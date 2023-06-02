@@ -635,12 +635,12 @@ video {
   margin-right: 0.5rem;
 }
 
-.mr-3{
-  margin-right: 0.75rem;
+.mr-28{
+  margin-right: 7rem;
 }
 
-.mr-32{
-  margin-right: 8rem;
+.mr-3{
+  margin-right: 0.75rem;
 }
 
 .mt-10{
@@ -671,8 +671,8 @@ video {
   margin-top: 2.25rem;
 }
 
-.mr-28{
-  margin-right: 7rem;
+.mt-6{
+  margin-top: 1.5rem;
 }
 
 .block{
@@ -892,6 +892,10 @@ video {
 
 .pt-7{
   padding-top: 7px;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-center{
