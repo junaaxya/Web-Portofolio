@@ -23,7 +23,7 @@ module.exports = {
       },
       height: {
         55: "13.5rem",
-        120: "318vh",
+        120: "328vh",
         110: "200vh",
       },
       fontSize: {
