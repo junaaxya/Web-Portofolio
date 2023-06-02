@@ -577,6 +577,10 @@ video {
   bottom: 0px;
 }
 
+.left-64{
+  left: 16rem;
+}
+
 .right-64{
   right: 16rem;
 }
@@ -684,7 +688,7 @@ video {
 }
 
 .h-120{
-  height: 318vh;
+  height: 310vh;
 }
 
 .h-48{
