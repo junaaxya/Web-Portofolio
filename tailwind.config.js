@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}", "index.html"],
   theme: {
+    screen:{
+      'tablet': "500px"
+    },
     container: {},
     extend: {
       colors: {
@@ -9,6 +12,7 @@ module.exports = {
         colorText: "rgba(243, 90, 90, 1)",
         linear1: "rgba(18, 18, 24, 1)",
         linear2: "#101c30",
+        menu:"#101c30"
       },
       fontFamily: {
         opensans: ["Josefin Sans"],
@@ -23,8 +27,9 @@ module.exports = {
       },
       height: {
         55: "13.5rem",
-        120: "328vh",
-        110: "200vh",
+        120: "320vh",
+        110: "230vh",
+        100:"145vh"
       },
       fontSize: {
         s: ["10px", "14px"],

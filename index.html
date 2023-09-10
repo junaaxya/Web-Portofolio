@@ -4,32 +4,64 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>✨ Scratch Project ✨</title>
+    <title>porofolio arjuna</title>
     <!-- 👇 css code file 👇 -->
     <link href="./src/style/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/7a50dbed68.js" crossorigin="anonymous"></script>
-    <style>
-      #aku{
-        border: 2px solid tomato;
-      }
-    </style>
   </head>
   </head>
-  <body  id="top">
+  <body  id="top" class="">
+    <!-- header start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4 ml-5">
+            <a href="#home" class="font-pangolin font-bold text-xl text-colorText block py-6">Arjuna</a>
+          </div>
+          <div class="flex items-center px-4"> 
+            <button id="navbar" type="button" class="block absolute right-4  lg:hidden">
+              <span class="navbar transition duration-300 ease-in-out origin-top-left "></span> 
+              <span class="navbar transition duration-300 ease-in-out"></span>
+              <span class="navbar transition duration-300 ease-in-out origin-bottom-left"></span>
+            </button>
+            <nav id="nav-menu" class="hidden mt-2 absolute py-5 bg-menu border border-cyan-950 lg:border-none bg-opacity-80 shadow-lg rounded-lg max-w-[220px] w-full right-4 top-full  lg:block  lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+              <ul class="block  lg:flex">
+                <li class="group">
+                  <a href="#Home" class="text-base text-white lg:text-white py-2 mx-8 flex group-hover:text-colorText transition duration-300 font-noto tracking-widest font-bold">Home</a> 
+                </li>
+                <li class="group">
+                  <a href="#service" class="text-base text-white lg:text-white py-2 mx-8 flex group-hover:text-colorText transition duration-300 font-noto tracking-widest font-bold">Service</a>
+                </li>
+                <li class="group">
+                  <a href="#about" class="text-base text-white lg:text-white py-2 mx-8 flex group-hover:text-colorText transition duration-300 font-noto tracking-widest font-bold">About</a>
+                </li>
+                <li class="group">
+                  <a href="#pict" class="text-base text-white lg:text-white py-2 mx-8 flex group-hover:text-colorText transition duration-300 font-noto tracking-widest font-bold">Portofolio</a>
+                </li>
+                <li class="group">
+                  <a href="#contact" class="text-base text-white lg:text-white py-2 mx-8 flex group-hover:text-colorText transition duration-300 font-noto tracking-widest font-bold">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
     <!-- hero  section start -->
-    <section id="Home" class="">
-      <div class="container" >
-        <div  class=" h-screen bg-fixed object-fill bg-center bg-no-repeat w-full " style="background-image: linear-gradient(#1e35525b,#0e1727), url(./src/aset/img/bg.jpeg);" >
-          <div  class="flex flex-wrap justify-center h-55">
-          <h1  class="text-4xl mt-28 leading-9 text-center font-pangolin text-cyan-50 font-bold ">Hi, I am <span class="text-colorText"> Arjuna </span><span class="block"> <span class="text-colorText">Student</span> In Smk </span> and my hobby learn <span class="block text-colorText">programing</span>
+    <section id="Home" class="w-screen">
+      <div class="container " >
+        <div  class=" h-screen bg-fixed object-fill bg-center bg-no-repeat w-screen " style="background-image: linear-gradient(#1e35525b,#0e1727), url(./src/aset/img/bg.jpeg);" >
+          <div  class="flex flex-wrap justify-center h-55 sm:flex sm:flex-col sm:h-screen md:flex md:flex-col  md:h-screen">
+          <h1  class="text-4xl sm:text-5xl md:text-5xl mt-28 sm:mt-6 md:mt-6 leading-9 text-center font-pangolin text-cyan-50 font-bold ">Hi, I am <span class="text-colorText "> Arjuna </span><span class="block"> <span class="text-colorText">Student</span> In Smk </span> and my hobby learn <span class="block text-colorText">programing</span>
              </h1>
-          <p class=" text-center mt-10 text-base max-w-17 text-blue-200 mx-auto font-opensans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quo molestiae sed accusantium! A velit quidem odit cupiditate, tempore voluptas.</p>
-          <div class="flex flex-wrap mt-10 ml-2">
+          <p class=" text-center mt-10 text-base sm:text-lg md:text-lg max-w-17 text-blue-200 mx-auto font-opensans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quo molestiae sed accusantium! A velit quidem odit cupiditate, tempore voluptas.</p>
+          <div class="flex flex-wrap mt-10 ml-2 sm:mx-auto md:mx-auto">
             <button class="bg-primary text-white ease-in-out  duration-300   uppercase hover:shadow-sm hover:origin-top hover:-translate-y-1 transition delay-75 drop-shadow-md hover:shadow-blue-900 font-medium text-s  w-24 h-8  rounded-xl  mr-3"><i class="fa-brands fa-github fa-xl mr-2"></i><a href="">github</a> </button>
-            <button class="bg-primary text-white ease-in-out  duration-300  uppercase hover:shadow-sm hover:origin-top hover:-translate-y-1 transition delay-75 drop-shadow-md hover:shadow-blue-900 font-medium text-s  w-24 h-8  rounded-xl mr-3"><a href=""><i class="fa-regular fa-heart fa-beat-fade fa-xl" ></i></a></button>
+            <button class="bg-primary text-white ease-in-out  duration-300  uppercase hover:shadow-sm hover:origin-top hover:-translate-y-1 transition delay-75 drop-shadow-md hover:shadow-blue-900 font-medium text-s  w-24 h-8  rounded-xl mr-3"><a href="" class="tracking-widest">LINKEDIN</a></button>
             <button class="bg-primary text-white ease-in-out  duration-300  uppercase hover:shadow-sm hover:origin-top hover:-translate-y-1 transition delay-75 drop-shadow-md hover:shadow-blue-900 font-medium text-s  w-24 h-8  rounded-xl  mr-3"><a href="" class="mr-2">instagram</a><i class="fa-brands fa-instagram fa-xl "></i></button>
             </div>
           </div>
@@ -38,144 +70,148 @@
     </section>
     <!--hero  section end  -->
     <!-- service section start --> 
-    <section id="section" class="">
-     <div class="container bg-gradient-to-t from-linear1  to-linear2 h-120 w-full">
+    <section id="service" class=" w-screen ">
+     <div class=" bg-gradient-to-t from-linear1  to-linear2 h-120 md:h-100 w-screen">
       <div class="w-full h-full pt-5 ">
-        <div class="w-full  flex ">
-          <div class=" h-full  mx-auto">
-            <h1 class="text-blue-100 font-bold text-xs tracking-widest">SERVICE</h1> 
-            <h2 class="text-right text-xl font-bold leading-3 mb-4 ml-5 text-colorText">SKILL SET</h2>
+        <div class="w-full  flex md:mb-8 ">
+          <div class=" h-full  mx-auto ">
+            <h1 class="text-blue-100 font-bold text-xs md:text-sm tracking-widest">SERVICE</h1> 
+            <h2 class="text-right text-xl md:text-2xl font-bold leading-3 md:leading-none mb-4 ml-5 text-colorText">SKILL SET</h2>
           </div> 
         </div>
-        <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-sky-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
-          <div class="w-full ">
-            <div  class="flex w-full   flex-row">
-              <i class="fa-brands fa-html5 fa-xl mr-2 ml-3 mt-5" style="color: #d82c2c;"></i>
-              <h1 class="font-bold self-center pt-7 text-white">HTML 5</h1> 
+        <!-- card start -->
+        <div class="container mx-auto md:flex md:flex-wrap ">
+          <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-sky-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
+            <div class="w-full ">
+              <div  class="flex w-full   flex-row">
+                <i class="fa-brands fa-html5 fa-xl mr-2 ml-3 mt-5" style="color: #d82c2c;"></i>
+                <h1 class="font-bold self-center pt-7 text-white">HTML 5</h1> 
+              </div>
+              <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
             </div>
-            <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
           </div>
-        </div>
-        <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-sky-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
-          <div class="w-full ">
-            <div  class="flex w-full   flex-row">
-              <i class="fa-brands fa-square-js fa-xl mr-2 ml-3 mt-5" style="color: #ffaf24;"></i>
-              <h1 class="font-bold self-center pt-7 text-white">JAVASCRIPT</h1> 
+          <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-sky-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
+            <div class="w-full ">
+              <div  class="flex w-full   flex-row">
+                <i class="fa-brands fa-square-js fa-xl mr-2 ml-3 mt-5" style="color: #ffaf24;"></i>
+                <h1 class="font-bold self-center pt-7 text-white">JAVASCRIPT</h1> 
+              </div>
+              <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
             </div>
-            <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
           </div>
-        </div>
-        <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
-          <div class="w-full ">
-            <div  class="flex w-full   flex-row">
-              <i class="fa-brands fa-css3-alt fa-xl mr-2 ml-3 mt-5" style="color: #044ecd;"></i>
-              <h1 class="font-bold self-center pt-7 text-white">CSS</h1> 
+          <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
+            <div class="w-full ">
+              <div  class="flex w-full   flex-row">
+                <i class="fa-brands fa-css3-alt fa-xl mr-2 ml-3 mt-5" style="color: #044ecd;"></i>
+                <h1 class="font-bold self-center pt-7 text-white">CSS</h1> 
+              </div>
+              <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
             </div>
-            <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
           </div>
-        </div>
-        <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
-          <div class="w-full ">
-            <div  class="flex w-full   flex-row">
-              <img class="aspect-auto w-6 h-6 bg-cover mr-2 ml-3 mt-2" src="./src/aset/img/tailwindLogo.webp" alt="">
-              <h1 class="font-bold self-center pt-7 text-white">TAILWINDCSS</h1> 
+          <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
+            <div class="w-full ">
+              <div  class="flex w-full   flex-row">
+                <img class="aspect-auto w-6 h-6 bg-cover mr-2 ml-3 mt-2" src="./src/aset/img/tailwindLogo.webp" alt="">
+                <h1 class="font-bold self-center pt-7 text-white">TAILWINDCSS</h1> 
+              </div>
+              <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
             </div>
-            <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
           </div>
-        </div>
-        <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
-          <div class="w-full ">
-            <div  class="flex w-full   flex-row">
-              <i class="fa-brands fa-bootstrap fa-xl mr-2 ml-3 mt-5" style="color: #6803e2;"></i>
-              <h1 class="font-bold self-center pt-7 text-white">BOOSTRAP</h1> 
+          <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
+            <div class="w-full ">
+              <div  class="flex w-full   flex-row">
+                <i class="fa-brands fa-bootstrap fa-xl mr-2 ml-3 mt-5" style="color: #6803e2;"></i>
+                <h1 class="font-bold self-center pt-7 text-white">BOOSTRAP</h1> 
+              </div>
+              <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
             </div>
-            <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
           </div>
-        </div>
-        <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden ">
-          <div class="w-full ">
-            <div  class="flex w-full   flex-row">
-              <img class="aspect-auto w-7 h-7 bg-cover mr-2 ml-3 mt-2" src="./src/aset/img/iconPs.png" alt="">
-              <h1 class="font-bold self-center pt-7 text-white">PHOTOSHOP</h1> 
+          <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden ">
+            <div class="w-full ">
+              <div  class="flex w-full   flex-row">
+                <img class="aspect-auto w-7 h-7 bg-cover mr-2 ml-3 mt-2" src="./src/aset/img/iconPs.png" alt="">
+                <h1 class="font-bold self-center pt-7 text-white">PHOTOSHOP</h1> 
+              </div>
+              <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
             </div>
-            <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
           </div>
-        </div>
-        <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
-          <div class="w-full ">
-            <div  class="flex w-full   flex-row">
-              <img class="aspect-auto w-6 h-6 rounded-lg bg-cover mr-2 ml-3 mt-2" src="./src/aset/img/coreldrawIcon.png" alt="">
-              <h1 class="font-bold self-center pt-7 text-white">COREL</h1> 
+          <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
+            <div class="w-full ">
+              <div  class="flex w-full   flex-row">
+                <img class="aspect-auto w-6 h-6 rounded-lg bg-cover mr-2 ml-3 mt-2" src="./src/aset/img/coreldrawIcon.png" alt="">
+                <h1 class="font-bold self-center pt-7 text-white">COREL</h1> 
+              </div>
+              <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
             </div>
-            <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
           </div>
-        </div>
-        <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
-          <div class="w-full ">
-            <div  class="flex w-full   flex-row">
-              <i class="fa-brands fa-node fa-xl mr-2 ml-3 mt-5" style="color: #0ba118;"></i>
-              <h1 class="font-bold self-center pt-7 text-white">NODEJS</h1> 
+          <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
+            <div class="w-full ">
+              <div  class="flex w-full   flex-row">
+                <i class="fa-brands fa-node fa-xl mr-2 ml-3 mt-5" style="color: #0ba118;"></i>
+                <h1 class="font-bold self-center pt-7 text-white">NODEJS</h1> 
+              </div>
+              <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
             </div>
-            <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
           </div>
-        </div>
-        <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
-          <div class="w-full ">
-            <div  class="flex w-full   flex-row">
-              <img class="aspect-auto w-6 h-6 bg-white rounded-lg bg-cover mr-2 ml-3 mt-2" src="./src/aset/img/router.png" alt="">
-              <h1 class="font-bold self-center pt-7 text-white">MIKROTIK</h1> 
+          <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
+            <div class="w-full ">
+              <div  class="flex w-full   flex-row">
+                <img class="aspect-auto w-6 h-6 bg-white rounded-lg bg-cover mr-2 ml-3 mt-2" src="./src/aset/img/router.png" alt="">
+                <h1 class="font-bold self-center pt-7 text-white">MIKROTIK</h1> 
+              </div>
+              <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
             </div>
-            <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
           </div>
-        </div>
-        <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
-          <div class="w-full ">
-            <div  class="flex w-full   flex-row">
-              <img class="aspect-auto w-6 h-6 bg-white rounded-lg bg-cover mr-2 ml-3 mt-2" src="./src/aset/img/cissco.png" alt="">
-              <h1 class="font-bold self-center pt-7 text-white">CISCO</h1> 
+          <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-blue-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
+            <div class="w-full ">
+              <div  class="flex w-full   flex-row">
+                <img class="aspect-auto w-6 h-6 bg-white rounded-lg bg-cover mr-2 ml-3 mt-2" src="./src/aset/img/cissco.png" alt="">
+                <h1 class="font-bold self-center pt-7 text-white">CISCO</h1> 
+              </div>
+              <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
             </div>
-            <p class="justify-center font-noto items-center ml-3 text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium cum eius dolores architecto consectetur error exercitationem, natus distinctio tempora vero necessitatibus commodi non !</p>
           </div>
+          <div class="flex w-full flex-wrap mt-12 ">
+            <button class="rounded-lg w-24 h-7 hover:shadow-lg transition-all ease-in-out delay-75 duration-150 hover:-translate-y-1 origin-left hover:shadow-blue-950 shadow-sm drop-shadow-sm shadow-blue-900 bg-primary text-white text-base  font-semibold  mx-auto "><a href="#">MORE</a></button>
+          </div>
+          
         </div>
-        <div class="flex w-full flex-wrap mt-12 ">
-          <button class="rounded-lg w-24 h-7 hover:shadow-lg transition-all ease-in-out delay-75 duration-150 hover:-translate-y-1 origin-left hover:shadow-blue-950 shadow-sm drop-shadow-sm shadow-blue-900 bg-primary text-white text-base  font-semibold  mx-auto"><a href="#">MORE</a></button>
-        </div>
-        
-      </div>
-     </div>
-    </section>
+       </div>
+      </section>
+    </div>
+
     <!-- service section end -->
     <!-- about me start -->
 
     <section id="about" class="-mt-4">
-      <div class="container bg-gradient-to-t from-linear1  to-linear1 h-screen w-full">
+      <div class=" bg-gradient-to-t from-linear1  to-linear1 h-screen  w-screen">
         <div  class="w-full flex  items-center justify-center ">
-          <img src="./src/aset/img/bgTop.jpeg"  class="h-auto w-60 py-6" alt="background kucing">
+          <img src="./src/aset/img/bgTop.jpeg"  class="h-auto w-60 md:w-72 py-6" alt="background kucing">
         </div>
         <div  class="w-full h-auto flex flex-wrap ">
-          <h1 class="text-white text-3xl mx-auto font-semibold font-noto">WHO AM <span class="text-colorText"> I </span>?
+          <h1 class="text-white text-3xl md:text-4xl mx-auto font-semibold font-noto">WHO AM <span class="text-colorText"> I </span>?
           </h1>
           <div class="w-full flex flex-col mt-2">
-            <h2 class="mx-auto text-white tracking-widest font-bold text-2xl">Arjuna</h2>
-            <p class="text-lg text-white mx-auto">FRONT END DEV</p>
+            <h2 class="mx-auto text-white tracking-widest font-bold text-2xl sm:text-3xl md:text-3xl">Arjuna</h2>
+            <p class="text-lg sm:text-sm md:text-sm text-white mx-auto">FRONT END DEV</p>
           </div>
           <div class="w-full mt-2">
-            <p class="text-center mx-6 max-w-18 md:mx-auto text-white ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis optio, voluptas commodi veritatis totam officia quia minus nesciunt quibusdam.</p>
+            <p class="text-center px-2 mx-auto max-w-18 sm:px-0 md:px-0  sm:mx-auto md:mx-auto text-white md:text-lg md:max-w-xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis optio, voluptas commodi veritatis totam officia quia minus nesciunt quibusdam.</p>
           </div>
-          <button   class="bg-primary text-white ease-in-out mx-auto duration-150 uppercase hover:shadow-lg  hover:-translate-y-1 transition delay-75 drop-shadow-md hover:shadow-blue-900 font-medium text-s w-24 h-8  rounded-xl mt-5"><i class="fa-regular fa-address-card fa-xl mr-2 "></i><a href="#top">ABOUT ME</a> </button>
+          <button   class="bg-primary text-white ease-in-out mx-auto duration-150 uppercase hover:shadow-lg  hover:-translate-y-1 transition delay-75 drop-shadow-md hover:shadow-blue-900 font-medium text-s w-24 h-8  rounded-xl mt-5 md:mt-9"><i class="fa-regular fa-address-card fa-xl mr-2 "></i><a href="#top">ABOUT ME</a> </button>
         </div>
       </div>
     </section>
     <!-- about me end  -->
     <!-- pict  start -->
     <section id="pict" class="-mt-2">
-      <div class="container bg-gradient-to-t from-linear1 to-linear1 h-110 w-full">
+      <div class=" bg-gradient-to-t from-linear1 to-linear1 h-110 w-screen">
         <div class="w-full flex flex-wrap flex-col pt-10">
-          <h1 class="font-bold mx-auto text-2xl leading-6 text-white">PICTURE</h1>
-          <h2 class="text-white flex justify-end mr-32 leading-3 font-bold"><span class="text-colorText">MY PICT</span></h2>
+          <h1 class="font-bold mx-auto text-2xl leading-6 text-white">PORTOFOLIO</h1>
+          <h2 class="text-white flex justify-center sm:justify-center sm:mr-0 sm:ml-16  md:justify-center md:mr-0 md:ml-32 ml-24 leading-3 font-bold"><span class="text-colorText">MY PROJECT</span></h2>
         </div>
-        <div class="w-full flex flex-wrap mt-9">
-          <div class="w-80 rounded-lg shadow-xl relative mb-6 shadow-slate-800 transition-all hover:shadow-blue-900 mx-auto bg-linear1 outline outline-1 outline-offset-0 hover:-translate-y-2 delay-75 outline-blue-950">
+        <div class="w-full flex flex-wrap mt-9 md:justify-evenly">
+          <div class="w-80 md:w-96 rounded-lg shadow-xl relative mb-6 shadow-slate-800 transition-all hover:shadow-blue-900 mx-auto bg-linear1 outline outline-1 outline-offset-0 hover:-translate-y-2 delay-75 outline-blue-950 ">
             <a href="#!">
               <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg" alt="" />
             </a>
@@ -189,9 +225,10 @@
               <div class="w-16 h-auto absolute right-64 inset-x-0 bottom-0 ">
                 <img src="./src/aset/img/pictCard.png" alt="">
               </div>
+              
             </div>
           </div>
-          <div class="w-80 rounded-lg shadow-xl relative mb-6 shadow-slate-800 transition-all hover:shadow-blue-900 mx-auto bg-linear1 outline outline-1 outline-offset-0 hover:-translate-y-2 delay-75 outline-blue-950">
+          <div class="w-80 md:w-96 rounded-lg shadow-xl relative mb-6 shadow-slate-800 transition-all hover:shadow-blue-900 mx-auto bg-linear1 outline outline-1 outline-offset-0 hover:-translate-y-2 delay-75 outline-blue-950">
             <a href="#!">
               <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg" alt="" />
             </a>
@@ -207,7 +244,7 @@
               </div>
             </div>
           </div>
-          <div class="w-80 rounded-lg shadow-xl relative mb-6 shadow-slate-800 transition-all hover:shadow-blue-900 mx-auto bg-linear1 outline outline-1 outline-offset-0 hover:-translate-y-2 delay-75 outline-blue-950">
+          <div class="w-80 md:w-96 rounded-lg shadow-xl relative mb-6 shadow-slate-800 transition-all hover:shadow-blue-900 mx-auto bg-linear1 outline outline-1 outline-offset-0 hover:-translate-y-2 delay-75 outline-blue-950">
             <a href="#!">
               <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg" alt="" />
             </a>
@@ -223,11 +260,57 @@
               </div>
             </div>
           </div>
+          <div class="w-80 md:w-96 rounded-lg shadow-xl relative mb-6 shadow-slate-800 transition-all hover:shadow-blue-900 mx-auto bg-linear1 outline outline-1 outline-offset-0 hover:-translate-y-2 delay-75 outline-blue-950 ">
+            <a href="#!">
+              <img class="rounded-t-lg" src="https://tecdn.b-cdn.net/img/new/standard/nature/184.jpg" alt="" />
+            </a>
+            <div class="p-6 flex flex-wrap relative">
+              <h5 class="mb-2 text-2xl mx-auto font-medium leading-tight text-neutral-800 dark:text-neutral-50">
+                Card title
+              </h5>
+              <p class="mb-4 text-base text-white text-center z-10">
+                Some quick example text to build on the card title and make up the bulk of the card's content.
+              </p>
+              <div class="w-16 h-auto absolute left-64 inset-x-0 bottom-0 ">
+                <img src="./src/aset/img/pictCard.png" alt="">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    
     <!-- pict end-->
+    <!-- contact statr -->
+    <section id="contact" class="-mt-2">
+      <div class=" bg-gradient-to-t from-linear1 to-linear1 h-screen w-screen">
+       <div class="w-full px-4">
+        <div class="max-w-xl mx-auto text-center mb-15">
+          <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi Kami</h2>
+          <p class="font-medium text-md text-slate-50 md:text-lg ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, vitae!</p>
+          </p>
+        </div>
+       </div>
+       <form action="">
+        <div class="w-full px-4 mb-8">
+          <label for="name" class="text-base text-bold text-colorText">Nama</label>
+          <input type="text" id="name" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-blue-100 focus:ring-1 focus:border-colorText  ">
+        </div>
+        <div class="w-full px-4 mb-8">
+          <label for="email" class="text-base text-bold text-colorText">Email</label>
+          <input type="email" id="email" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-blue-100 focus:ring-1 focus:border-colorText  ">
+        </div>
+        <div class="w-full px-4 mb-8">
+          <label for="message" class="text-base text-bold text-colorText">Pesan</label>
+          <textarea type="message" id="message" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none focus:ring-blue-100 focus:ring-1 focus:border-colorText h-32 "></textarea>
+        </div>
+        <div class="w-full px-4">
+          <button class=" text-base font-semibold text-white bg-colorText py-2 px-8 rounded-full hover:opacity-80 focus:ring-sky-950 focus:ring-1 focus:border-sky-700 hover:shadow-lg transition duration-500">kirim</button>
+        </div>
+      </form>
+      </div>
+    </section>
+    <!-- contact end  -->
+
     <!-- 👇 javascript code file 👇 -->
     <script src="./src/js/index.js"></script>
   </body>

@@ -3,3 +3,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.navbar-fixed {
+    @apply fixed z-[9999] bg-black bg-opacity-30;
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.103)
+}
+
+.navbar{
+    @apply w-[30px] h-[2px] my-2 block bg-colorText;
+}
+
+.navbar-active > span:nth-child(1) {
+    @apply  rotate-45;
+}
+.navbar-active > span:nth-child(2) {
+    @apply scale-0;
+}
+.navbar-active > span:nth-child(3) {
+    @apply  -rotate-45;
+}
