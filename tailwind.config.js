@@ -28,7 +28,7 @@ module.exports = {
       height: {
         55: "13.5rem",
         120: "320vh",
-        110: "230vh",
+        110: "250vh",
         100:"145vh"
       },
       fontSize: {
