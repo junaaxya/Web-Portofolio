@@ -55,7 +55,7 @@
     <section id="Home" class="w-screen">
       <div class="container " >
         <div  class=" h-screen bg-fixed object-fill bg-center bg-no-repeat w-screen " style="background-image: linear-gradient(#1e35525b,#0e1727), url(./src/aset/img/bg.jpeg);" >
-          <div  class="flex flex-wrap justify-center h-55 sm:flex sm:flex-col sm:h-screen md:flex md:flex-col  md:h-screen">
+          <div  class="flex flex-wrap justify-center h-55 sm:flex sm:flex-col sm:h-screen md:flex md:flex-col  md:h-screen py-8">
           <h1  class="text-4xl sm:text-5xl md:text-5xl mt-28 sm:mt-6 md:mt-6 leading-9 text-center font-pangolin text-cyan-50 font-bold ">Hi, I am <span class="text-colorText "> Arjuna </span><span class="block"> <span class="text-colorText">Student</span> In Smk </span> and my hobby learn <span class="block text-colorText">programing</span>
              </h1>
           <p class=" text-center mt-10 text-base sm:text-lg md:text-lg max-w-17 text-blue-200 mx-auto font-opensans">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente quo molestiae sed accusantium! A velit quidem odit cupiditate, tempore voluptas.</p>
@@ -71,7 +71,7 @@
     <!--hero  section end  -->
     <!-- service section start --> 
     <section id="service" class=" w-screen ">
-     <div class=" bg-gradient-to-t from-linear1  to-linear2 h-120 md:h-100 w-screen">
+     <div class=" bg-gradient-to-t from-linear1  to-linear2 h-120 md:h-100 w-screen lg:h-full lg:pb-32">
       <div class="w-full h-full pt-5 ">
         <div class="w-full  flex md:mb-8 ">
           <div class=" h-full  mx-auto ">
@@ -80,7 +80,7 @@
           </div> 
         </div>
         <!-- card start -->
-        <div class="container mx-auto md:flex md:flex-wrap ">
+        <div class="container mx-auto md:flex md:flex-wrap lg:flex lg:flex-wrap lg:gap-3 xl:flex xl:flex-wrap xl:gap-1  xl:border">
           <div class=" w-80  h-48 outline outline-offset-0 outline-1 outline-sky-950 hover:shadow-lg hover:shadow-blue-800 rounded-lg shadow-lg transition-shadow ease-in-out duration-500 delay-75 mb-6 flex bg-slate-900 mx-auto  overflow-hidden">
             <div class="w-full ">
               <div  class="flex w-full   flex-row">
@@ -203,9 +203,10 @@
       </div>
     </section>
     <!-- about me end  -->
+
     <!-- pict  start -->
     <section id="pict" class="-mt-2">
-      <div class=" bg-gradient-to-t from-linear1 to-linear1 h-110 w-screen">
+      <div class=" bg-gradient-to-t from-linear1 to-linear1 h-110 md:h-full md:py-20 lg:h-full lg:pb-32 w-screen">
         <div class="w-full flex flex-wrap flex-col pt-10">
           <h1 class="font-bold mx-auto text-2xl leading-6 text-white">PORTOFOLIO</h1>
           <h2 class="text-white flex justify-center sm:justify-center sm:mr-0 sm:ml-16  md:justify-center md:mr-0 md:ml-32 ml-24 leading-3 font-bold"><span class="text-colorText">MY PROJECT</span></h2>
@@ -282,7 +283,7 @@
     <!-- pict end-->
     <!-- contact statr -->
     <section id="contact" class="-mt-2 ">
-      <div class=" bg-gradient-to-t from-linear1 to-linear1 h-screen w-screen">
+      <div class=" bg-gradient-to-t from-linear1 to-linear1 h-screen w-screen flex flex-col justify-center">
        <div class="w-full px-4">
         <div class="max-w-xl mx-auto text-center mb-15">
           <h1 class="text-center text-colorText text-2xl md:text-3xl lg:text-4xl font-pangolin font-bold ">Contact</h1>
@@ -291,8 +292,8 @@
           </p>
         </div>
        </div>
-       <form action="">
-        <div class="w-full px-4 mb-8">
+       <form action="" class="md:w-3/4  lg:w-2/4 mx-auto xl:w-2/4">
+        <div class="w-full px-4 mb-8 ">
           <label for="name" class="text-base text-bold text-colorText">Nama</label>
           <input type="text" id="name" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none  focus:ring-blue-900 focus:shadow-blue-900 focus:shadow-lg focus:ring-1 focus:border-colorText  ">
         </div>
@@ -302,7 +303,7 @@
         </div>
         <div class="w-full px-4 mb-8">
           <label for="message" class="text-base text-bold text-colorText">Pesan</label>
-          <textarea type="message" id="message" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none  focus:ring-blue-900 focus:shadow-blue-900 focus:shadow-lg focus:ring-1 focus:border-colorText h-32 "></textarea>
+          <textarea type="message" id="message" class="w-full bg-slate-200 text-black p-3 rounded-md focus:outline-none  focus:ring-blue-900 focus:shadow-blue-900 focus:shadow-lg focus:ring-1 focus:border-colorText h-32 lg:h-44 "></textarea>
         </div>
         <div class="w-full px-4">
           <button class=" text-base font-semibold text-white bg-colorText py-2 px-8 rounded-full hover:opacity-80 focus:ring-sky-950 focus:ring-1 focus:border-sky-700 hover:shadow-lg transition duration-500">kirim</button>
