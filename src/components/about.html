@@ -1,70 +1,42 @@
-<!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>porofolio arjuna</title>
-    <!-- 👇 css code file 👇 -->
-    <link href="/style/output.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7a50dbed68.js" crossorigin="anonymous"></script>
-  </head>
-  </head>
-  <body  id="top" class="">
-    <!-- header start -->
-    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
-      <div class="container">
-        <div class="flex items-center justify-between relative">
-          <div class="px-4 ml-5">
-            <a href="#home" class="font-pangolin font-bold text-xl text-colorText block py-6">Arjuna</a>
-          </div>
-          <div class="flex items-center px-4"> 
-            <button id="navbar" type="button" class="block absolute right-4  lg:hidden">
-              <span class="navbar transition duration-300 ease-in-out origin-top-left "></span> 
-              <span class="navbar transition duration-300 ease-in-out"></span>
-              <span class="navbar transition duration-300 ease-in-out origin-bottom-left"></span>
-            </button>
-            <nav id="nav-menu" class="hidden mt-2 absolute py-5 bg-menu border border-cyan-950 lg:border-none bg-opacity-80 shadow-lg rounded-lg max-w-[220px] w-full right-4 top-full  lg:block  lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
-              <ul class="block  lg:flex">
-                <li class="group">
-                  <a href="/index.html" class="text-base text-white lg:text-white py-2 mx-8 flex group-hover:text-colorText transition duration-300 font-noto tracking-widest font-bold">Home</a> 
-                </li>
-              </ul>
-            </nav>
-          </div>
-        </div>
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101c30">
+  <meta name="description" content="Tentang Arjuna, web developer yang tertarik pada UI/UX, pengembangan web, dan proyek kreatif berbasis budaya lokal.">
+  <title>Tentang Saya | Arjuna</title>
+  <link rel="stylesheet" href="../../style/output.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Noto+Sans:wght@400;500;600;700;800&family=Pangolin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../style/polish.css">
+  <script src="../js/index.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati navigasi</a>
+  <header class="site-header"><div class="shell header-row">
+    <a class="brand" href="../../index.html#home">Arjuna<span>.</span></a>
+    <button id="navbar" class="menu-button" type="button" aria-label="Buka atau tutup navigasi" aria-expanded="false" aria-controls="nav-menu"><span></span><span></span><span></span></button>
+    <nav id="nav-menu" class="site-nav" aria-label="Navigasi utama">
+      <a href="../../index.html#home">Beranda</a><a href="../../index.html#skills">Keahlian</a><a href="../../index.html#about">Tentang</a><a href="../../index.html#portfolio">Portofolio</a><a class="nav-cta" href="../../index.html#contact">Kontak</a>
+    </nav>
+  </div></header>
+  <main id="main">
+    <section class="inner-hero"><div class="shell"><p class="eyebrow">About Me</p><h1>Kenalan lebih dekat dengan <span class="accent">Arjuna.</span></h1><p>Ketertarikan saya ada di pertemuan antara teknologi, desain, dan kreativitas. Saya senang mempelajari hal baru lalu menerapkannya dalam bentuk karya yang bisa digunakan.</p></div></section>
+    <section class="section about"><div class="shell about-layout">
+      <div class="about-visual"><img src="../aset/img/bgTop.jpeg" alt="Ilustrasi dari desain portofolio original Arjuna" loading="lazy"><span class="caption">Technology meets creativity.</span></div>
+      <div class="about-copy"><p class="eyebrow">My Story</p><h2 class="section-title">Belajar, membangun, <span class="accent">berkembang.</span></h2>
+        <p>Saya adalah pengembang web yang fokus mengembangkan kemampuan frontend dan mengeksplorasi UI/UX. Bagi saya, pengalaman digital yang baik bukan hanya tentang tampilannya, tetapi juga tentang keterbacaan, kemudahan navigasi, dan konsistensi.</p>
+        <p>Saya menggunakan HTML, CSS, JavaScript, Tailwind CSS, dan teknologi lain untuk membuat maupun mempelajari aplikasi web. Saat ini saya juga mengeksplorasi Next.js, Prisma, dan alur CI/CD.</p>
+        <p>Di luar teknologi, saya memiliki minat pada konten edukasi visual serta dokumentasi budaya lokal, termasuk musik tradisional Dambus Bangka.</p>
       </div>
-    </header>
-    <!-- header end -->
-    <!-- about me start -->
-
-    <section id="about" class=" h-4/5 " >
-      <div class=" bg-gradient-to-t from-linear1  to-linear1 h-4/5 py-40 w-screen">
-        <div  class="w-full flex  items-center justify-center ">
-          <img src="/src/aset/img/bgTop.jpeg"  class="h-auto w-60 md:w-72 py-6" alt="background kucing">
-        </div>
-        <div  class="w-full h-auto flex flex-wrap ">
-          <h1 class="text-white text-3xl md:text-4xl mx-auto font-semibold font-noto">WHO AM <span class="text-colorText"> I </span>?
-          </h1>
-          <div class="w-full flex flex-col mt-2">
-            <h2 class="mx-auto text-white tracking-widest font-bold text-2xl sm:text-3xl md:text-3xl">Arjuna</h2>
-            <p class="text-lg sm:text-sm md:text-sm text-white mx-auto">FRONT END DEV</p>
-          </div>
-          <div class="w-full mt-2">
-            <p class="text-center px-2 mx-auto max-w-18 sm:px-0 md:px-0  sm:mx-auto md:mx-auto text-white md:text-lg md:max-w-xl ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae blanditiis optio, voluptas commodi veritatis totam officia quia minus nesciunt quibusdam.</p>
-          </div>
-          <button   class="bg-primary text-white ease-in-out mx-auto duration-150 uppercase hover:shadow-lg  hover:-translate-y-1 transition delay-75 drop-shadow-md hover:shadow-blue-900 font-medium text-s w-24 h-8  rounded-xl mt-5 md:mt-9"><i class="fa-regular fa-address-card fa-xl mr-2 "></i><a href="/index.html">HOME</a> </button>
-        </div>
-      </div>
-    </section>
-    <!-- about me end  -->
-
-    
-
-    <!-- 👇 javascript code file 👇 -->
-    <script src="/src/js/index.js"></script>
-  </body>
+    </div></section>
+    <section class="section skills"><div class="shell text-body"><p class="eyebrow">What Matters to Me</p><h2 class="section-title">Cara saya melihat <span class="accent">sebuah proyek.</span></h2>
+      <h2>Berorientasi pada pengguna</h2><p>Saya berusaha membuat antarmuka yang mudah dipahami dan nyaman digunakan, baik melalui komputer maupun perangkat mobile.</p>
+      <h2>Terus belajar</h2><p>Saya memandang proyek sebagai ruang eksperimen: mencoba pendekatan, mengevaluasi hasil, lalu memperbaikinya secara bertahap.</p>
+      <h2>Teknologi dan budaya</h2><p>Saya percaya media digital juga bisa menjadi cara yang menarik untuk mendokumentasikan pengetahuan dan tradisi lokal.</p>
+    </div></section>
+    <div class="closing-bar"><div class="shell closing-inner"><h2>Ingin melihat apa yang sedang saya kerjakan?</h2><a class="button button-primary" href="../../index.html#portfolio">Lihat portofolio ↗</a></div></div>
+  </main>
+  <footer class="site-footer"><div class="shell footer-row"><p>© 2026 Arjuna.</p><div class="footer-links"><a href="../../index.html">Beranda</a><a href="https://github.com/junaaxya" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/arjuna--698972263" target="_blank" rel="noopener noreferrer">LinkedIn</a></div></div></footer>
+</body>
 </html>
